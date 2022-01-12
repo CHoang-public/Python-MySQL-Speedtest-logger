@@ -28,7 +28,7 @@ def main():
   mydb = mysql.connector.connect(
     host="localhost",
     user="root",
-    password="2017Tekken7" #replace with your password
+    password="password" #replace with your password if it isn't set to password
   )
 
   print("Database connection: " + str(mydb))
